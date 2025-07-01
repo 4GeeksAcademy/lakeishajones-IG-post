@@ -1,0 +1,54 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .insta-post {
+      background: white;
+      width: 400px;
+      border: 1px solid #dbdbdb;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .post-header {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+    .post-header img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+    .post-image img {
+      width: 100%;
+    }
+    .post-actions, .post-caption, .post-comments {
+    padding: 10px;
+    display: flex
+;
+}
+    .post-actions span {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .post-caption b {
+      margin-right: 5px;
+    }
+    .post-comments {
+      color: gray;
+      font-size: 12px;
+    } 
+    .three-dots {
+    padding-left: 50%;
+}
+.element.style {
+    padding-left: 300px;
+}
+  .right-post-action {
+    padding-left: 80%;
+}
